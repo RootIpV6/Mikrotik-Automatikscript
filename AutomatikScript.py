@@ -7,6 +7,7 @@ interface = "ether1"
 
 
 # Create MikroTik script
+mikrotik_script = f"""
 /ip address
 add address={gateway}/24 interface={interface}
 /ip dhcp-server network
